@@ -13,6 +13,23 @@ A local password-strength analyzer and cryptographically secure password
 generator. It uses a bundled zxcvbn estimator, avoids logging or storing entered
 passwords, and includes Python and JavaScript tests.
 
+### [PhishGuard](https://github.com/Fidlef/PhishGuard)
+
+A text-only URL-structure analyzer that explains misleading hosts, Punycode,
+embedded credentials, and other review signals without opening the link or
+claiming a final safety verdict.
+
+### [LogSentinel](https://github.com/Fidlef/LogSentinel)
+
+A local authentication-event dashboard that uses transparent time-window rules,
+synthetic data, and careful uncertainty language to prioritize defensive review.
+
+### [CyberVault](https://github.com/Fidlef/CyberVault)
+
+A localhost file-encryption demonstration using scrypt-derived keys and
+AES-256-GCM, with a versioned format, tamper detection, tests, and an explicit
+threat model.
+
 ### [HeaderHarbor](https://github.com/Fidlef/HeaderHarbor)
 
 A local `.eml` forensics explainer that separates authentication evidence,
@@ -39,15 +56,6 @@ label patterns while preserving normal explanations and avoiding payload data.
 An interactive lab for learning cookie flags, scope, `SameSite`, and the exact
 `__Host-` and `__Secure-` prefix rules with synthetic values.
 
-## Release candidates
-
-These projects are complete locally and waiting for their new GitHub
-repositories to become available to the connected GitHub app:
-
-- **PhishGuard** — text-only URL-structure triage that never opens the link
-- **LogSentinel** — local authentication-log pattern analysis with synthetic data
-- **CyberVault** — password-derived AES-256-GCM file encryption on localhost
-
 ## What I am learning
 
 `Python` · `Flask` · `JavaScript` · `HTML/CSS` · `pytest` · `Node test runner` ·
@@ -62,4 +70,3 @@ implementations are generated with OpenAI Codex. I am responsible for reviewing
 and learning the code before I describe any part as my own technical
 contribution. The repositories do not claim coursework, certifications,
 independent authorship, real-world incident findings, or user-impact numbers.
-
