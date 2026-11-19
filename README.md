@@ -1,4 +1,4 @@
-# Hi, I'm Fidel 👋
+# Hi, I'm Fidel
 
 I'm an IB student exploring cybersecurity, computer science, and the way secure
 technology can solve real problems. My current work focuses on small defensive
